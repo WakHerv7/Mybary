@@ -2,9 +2,9 @@ Middle
 <h2>Recently Added</h2>
 <div>
     <% books.forEach(book => { %>
-        <a href="/books/<%= book.id %>">
+        <div>
             <img height="150" width="100" src="<%= book.coverImagePath %>" alt="">
             <%= book.title %>
-        </a>
+        </div>
     <% }) %>
 </div>
